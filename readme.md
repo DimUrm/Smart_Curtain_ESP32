@@ -9,11 +9,13 @@ Stepper Motor:
 Stepper Motor Driver: A4988.
 
 ![A4988](./images/A4988.png)
+
 - Logic Voltage: 3V-5.5V.
 - Output Power up to 35V, Peak Current 2A.
 LDR sensor: 3 pieces.
 
 ![LDR](./images/LDR.png)
+
 Power Supply.
 - 12V-2A-24W Power Adapter.
 - Input: 100-240V AC 50/60Hz.
