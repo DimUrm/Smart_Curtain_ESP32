@@ -1,23 +1,23 @@
 # Devices in Use
-ESP32 Wroom devkit v1
+ESP32 Wroom devkit v1.
 ![esp32](./images/ESP32.png)
 Stepper Motor: 
-- NEMA 17 size 42x48 mm
-- Rated Current: 1.5 A
-- Holding Torque: 0.55 Nm, Step Angle: 1.8 degrees
-Stepper Motor Driver: A4988
+- NEMA 17 size 42x48 mm.
+- Rated Current: 1.5 A.
+- Holding Torque: 0.55 Nm, Step Angle: 1.8 degrees.
+Stepper Motor Driver: A4988.
 ![A4988](./images/A4988.png)
-- Logic Voltage: 3V-5.5V
-- Output Power up to 35V, Peak Current 2A
-LDR sensor: 3 pieces
+- Logic Voltage: 3V-5.5V.
+- Output Power up to 35V, Peak Current 2A.
+LDR sensor: 3 pieces.
 ![LDR](./images/LDR.png)
-Power Supply
-- 12V-2A-24W Power Adapter
-- Input: 100-240V AC 50/60Hz
-- Output: 12V 2A
+Power Supply.
+- 12V-2A-24W Power Adapter.
+- Input: 100-240V AC 50/60Hz.
+- Output: 12V 2A.
 ![AC](./images/AC.png)
 # Smart Curtain Functionality
-Informing Users about Room Status via the "inform" topic (publish)
+Informing Users about Room Status via the "inform" topic (publish).
 ```json
 {
     "indoor": 250,
@@ -26,7 +26,7 @@ Informing Users about Room Status via the "inform" topic (publish)
     "percent": 50
 }
 ```
-Users can control the curtain manually, open or close it at will, or set the curtain to auto mode by Pub/Sub to the following topics:
+Users can control the curtain manually, open or close it at will, or set the curtain to auto mode by Pub/Sub to the following topics.
 - auto_requests (subcribe)
 ```json
 {
@@ -55,7 +55,7 @@ Users can control the curtain manually, open or close it at will, or set the cur
     "correlation_data": "456"
 }
 ```
-Users receive notifications whenever the curtain loses connection with the broker through the "esp32_status" topic (publish)
+Users receive notifications whenever the curtain loses connection with the broker through the "esp32_status" topic (publish).
 ```json
 {
     "activate": true
