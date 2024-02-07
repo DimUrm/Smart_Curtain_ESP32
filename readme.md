@@ -1,20 +1,24 @@
 # Devices in Use
 ESP32 Wroom devkit v1.
+
 ![esp32](./images/ESP32.png)
 Stepper Motor: 
 - NEMA 17 size 42x48 mm.
 - Rated Current: 1.5 A.
 - Holding Torque: 0.55 Nm, Step Angle: 1.8 degrees.
 Stepper Motor Driver: A4988.
+
 ![A4988](./images/A4988.png)
 - Logic Voltage: 3V-5.5V.
 - Output Power up to 35V, Peak Current 2A.
 LDR sensor: 3 pieces.
+
 ![LDR](./images/LDR.png)
 Power Supply.
 - 12V-2A-24W Power Adapter.
 - Input: 100-240V AC 50/60Hz.
 - Output: 12V 2A.
+
 ![AC](./images/AC.png)
 # Smart Curtain Functionality
 Informing Users about Room Status via the "inform" topic (publish).
